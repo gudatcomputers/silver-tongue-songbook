@@ -18,11 +18,11 @@ html {
   align-items: center;
   gap: 2rem;
   padding: 16px;
-  height: 12vh;
+  height: 12svh;
 }
 
 .spacer {
-  height: 2vh;
+  height: 2svh;
 }
 
 .media-content {
@@ -66,7 +66,7 @@ html {
 
 .song-content {
   overflow-y: auto;
-  height: 79vh;
+  height: 79svh;
   border-radius: $border-radius;
 }
 .song-structure-container {

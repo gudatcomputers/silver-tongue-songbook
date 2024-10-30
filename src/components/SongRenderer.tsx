@@ -57,7 +57,7 @@ export default function SongRenderer(props: SongRendererProps) {
   const { song } = props;
 
   return (
-    <div className="song-content">
+    <div id="song-content" className="song-content">
       <LinkTabs links={song.links} />
       <div className="song-structure-container">
         {song.structure.map((section, i) => {

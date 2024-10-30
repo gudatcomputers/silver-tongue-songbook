@@ -11,6 +11,8 @@ function App() {
   const setSelectedSong = (id: string) => {
     const selectedSong = songList.find((s) => s.id === id);
     setSong(selectedSong);
+    const songContent = document.getElementById("song-content");
+    songContent?.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   return (
